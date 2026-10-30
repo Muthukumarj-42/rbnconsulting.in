@@ -3,40 +3,7 @@
 @layer base {
   body {
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #18181b;
+    background-color: #fafafa;
   }
-}
-
-.font-serif-brand {
-  font-family: 'Cinzel', Georgia, serif;
-}
-
-/* Custom background mesh and glowing radial effects */
-.bg-radial-navy {
-  background: radial-gradient(circle at 50% 20%, rgba(30, 58, 138, 0.3) 0%, rgba(10, 25, 47, 0.95) 60%, rgba(4, 12, 24, 1) 100%);
-}
-
-.gold-gradient-text {
-  background: linear-gradient(135deg, #FFFBEB 0%, #FDE68A 20%, #D4AF37 60%, #B45309 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.gold-border-glow {
-  box-shadow: 0 0 35px -5px rgba(212, 175, 55, 0.2), inset 0 0 20px -5px rgba(212, 175, 55, 0.1);
-}
-
-.gold-btn-gradient {
-  background: linear-gradient(135deg, #E6CA65 0%, #D4AF37 50%, #A87926 100%);
-}
-
-.gold-btn-gradient:hover {
-  background: linear-gradient(135deg, #FFF1B8 0%, #E6CA65 50%, #B88E18 100%);
-}
-
-/* Subtle grid overlay */
-.bg-grid-pattern {
-  background-size: 48px 48px;
-  background-image: 
-    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }
